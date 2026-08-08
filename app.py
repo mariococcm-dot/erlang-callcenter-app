@@ -10,7 +10,7 @@ from shift_engine import calculate_shift_requirements
 
 st.set_page_config(page_title="Erlang CCM / WFM ", layout="wide")
 
-st.title("📞 Calculadora Erlang C & Intraday WFM")
+st.title("📞 Calculadora Erlang-c & Intraday WFM")
 st.markdown("Aplicación para dimensionamiento de personal y optimización de horarios.")
 
 # --- BARRA LATERAL ---
