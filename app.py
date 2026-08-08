@@ -8,10 +8,10 @@ import streamlit as st
 from erlang_core import calculate_required_agents
 from shift_engine import calculate_shift_requirements
 
-st.set_page_config(page_title="Erlang C & WFM Call Center", layout="wide")
+st.set_page_config(page_title="Erlang CCM / WFM ", layout="wide")
 
 st.title("📞 Calculadora Erlang C & Intraday WFM")
-st.markdown("Herramienta Open Source para dimensionamiento de personal y optimización de horarios.")
+st.markdown("Aplicación para dimensionamiento de personal y optimización de horarios.")
 
 # --- BARRA LATERAL ---
 st.sidebar.header("⚙️ Parámetros Globales")
